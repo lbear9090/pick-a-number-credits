@@ -53,7 +53,7 @@ function CInterface() {
 
         // _oLosePanel = new CLosePanel(s_oStage);
 
-        _oWinPanel = new CWinPanel(s_oStage);
+        // _oWinPanel = new CWinPanel(s_oStage);
 
         _oAreYouSurePanel = new CAreYouSurePanel(s_oStage);
     };
@@ -72,7 +72,7 @@ function CInterface() {
     };
 
     this.showWinPanel = function(iTotWin,aWinList,aRank,s_iCurMoney){
-        _oWinPanel.show(iTotWin,aWinList,aRank,s_iCurMoney);
+        // _oWinPanel.show(iTotWin,aWinList,aRank,s_iCurMoney);
     };
     
     this.showLosePanel = function(aRank){
@@ -92,7 +92,7 @@ function CInterface() {
         }
         */
         
-        _oWinPanel.unload();
+        // _oWinPanel.unload();
         // _oLosePanel.unload();
         _oAreYouSurePanel.unload();
         

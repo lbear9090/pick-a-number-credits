@@ -25,7 +25,8 @@ function CInstructionBox(){
     };
     
     this._onExit = function(){
-        _oGroup.visible = false;  
+        _oGroup.visible = false;
+        s_oGame.hideInstruction();
     };
 
     this._initListener = function () {

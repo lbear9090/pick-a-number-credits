@@ -181,10 +181,6 @@ function sizeHandler() {
     if (s_oMenu !== null){
         s_oMenu.refreshButtonPos();
     }
-    
-    if(s_oBetPanel !== null){
-        s_oBetPanel.refreshButtonPos();
-    }
 
     if(s_bIsIphone){
             canvas = document.getElementById('canvas');
