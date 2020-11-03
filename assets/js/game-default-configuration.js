@@ -35,6 +35,7 @@ var EngagedNation = {};
             img_msg_box: './assets/sprites/msg_box.png',
             img_bg_main: './assets/sprites/bg_main.jpg',
             img_instruction_panel: './assets/sprites/instruction_box.png',
+            img_box:'./assets/sprites/box.png',
 
             text_general_font_family: 'impactregular',
 

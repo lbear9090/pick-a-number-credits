@@ -55,8 +55,8 @@ function CGame() {
         playSound("start_race");
     };
 
-    this.hideInstruction = function () {
-
+    this.openGame = function () {
+        
     };
 
     this.onExit = function () {

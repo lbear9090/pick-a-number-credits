@@ -134,7 +134,7 @@ function CMain() {
 
         s_oSpriteLibrary.addSprite("msg_box", EngagedNation.Config.Game.img_msg_box);
         s_oSpriteLibrary.addSprite("instruction_panel", EngagedNation.Config.Game.img_instruction_panel);
-
+        s_oSpriteLibrary.addSprite("box", EngagedNation.Config.Game.img_box);
         s_oSpriteLibrary.addSprite("bg_main", EngagedNation.Config.Game.img_bg_main);
 
         RESOURCE_TO_LOAD += s_oSpriteLibrary.getNumSprites();

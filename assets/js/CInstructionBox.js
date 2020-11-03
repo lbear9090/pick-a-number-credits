@@ -26,7 +26,7 @@ function CInstructionBox(){
     
     this._onExit = function(){
         _oGroup.visible = false;
-        s_oGame.hideInstruction();
+        s_oGame.openGame();
     };
 
     this._initListener = function () {
